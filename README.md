@@ -136,13 +136,13 @@ if not fraud_detector.preprocess_data(target_column='YourColumnName', balance_da
 #### Data Balancing
 ```python
 # Enable/disable data balancing
-fraud_detector.preprocess_data(balance_data=True)  # Default: True
+fraud_detector.preprocess_data(balance_data=True)  
 ```
 
 #### Missing Value Handling
 ```python
 # Choose strategy: 'median', 'mean', or 'drop'
-fraud_detector.preprocess_data(handle_missing='median')  # Default: 'median'
+fraud_detector.preprocess_data(handle_missing='median') 
 ```
 
 ## 📈 Model Performance
